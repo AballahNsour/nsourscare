@@ -10,7 +10,6 @@
 		270CDC0A28A65A0100F2F053 /* CKFHIRTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270CDC0928A65A0100F2F053 /* CKFHIRTaskViewController.swift */; };
 		270CDC0C28A65AD300F2F053 /* CKUploadFHIRTaskViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270CDC0B28A65AD300F2F053 /* CKUploadFHIRTaskViewControllerDelegate.swift */; };
 		275A6AC5296A684800DA4943 /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A6AC4296A684800DA4943 /* OnboardingPageView.swift */; };
-		276399A129021BB5004DE158 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 276399A029021BB4004DE158 /* GoogleService-Info.plist */; };
 		27653A13272A2E7700D74E83 /* LocalTaskListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27653A12272A2E7700D74E83 /* LocalTaskListItemView.swift */; };
 		27663F2A29574F1500A34080 /* CardinalKit_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27663F2929574F1500A34080 /* CardinalKit_ExampleTests.swift */; };
 		2777DADD2969F76300F2ECD4 /* CKSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777DADC2969F76300F2ECD4 /* CKSignInView.swift */; };
@@ -93,6 +92,8 @@
 		8EA664B42594387900B6A45A /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA664B32594387900B6A45A /* Errors.swift */; };
 		8EBE6F9C24B3C0E60093D07C /* AppDelegate+CardinalKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE6F9B24B3C0E60093D07C /* AppDelegate+CardinalKit.swift */; };
 		906B7514219BA67843AE4320 /* Pods_CardinalKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E679CADCB7FBF4F9F9F78DDA /* Pods_CardinalKit_Example.framework */; };
+		B2217BF32B065AB90096284D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2217BF22B065AB90096284D /* GoogleService-Info.plist */; };
+		B2217BF52B066B870096284D /* RegiteriPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2217BF42B066B870096284D /* RegiteriPatient.swift */; };
 		E235077724F7082700CC1899 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E235077624F7082700CC1899 /* SceneDelegate.swift */; };
 		E2680B1B260A72DD00B755EA /* LoginExistingUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2680B1A260A72DD00B755EA /* LoginExistingUserViewController.swift */; };
 		E29143FC24E74AD100EE97B2 /* LaunchUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29143FB24E74AD100EE97B2 /* LaunchUIView.swift */; };
@@ -130,7 +131,6 @@
 		270CDC0928A65A0100F2F053 /* CKFHIRTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFHIRTaskViewController.swift; sourceTree = "<group>"; };
 		270CDC0B28A65AD300F2F053 /* CKUploadFHIRTaskViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKUploadFHIRTaskViewControllerDelegate.swift; sourceTree = "<group>"; };
 		275A6AC4296A684800DA4943 /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
-		276399A029021BB4004DE158 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		27653A12272A2E7700D74E83 /* LocalTaskListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTaskListItemView.swift; sourceTree = "<group>"; };
 		27663F2729574F1500A34080 /* CardinalKit ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CardinalKit ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27663F2929574F1500A34080 /* CardinalKit_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardinalKit_ExampleTests.swift; sourceTree = "<group>"; };
@@ -216,6 +216,8 @@
 		8EA664B1259422E400B6A45A /* CKCareKitRemoteSyncWithFirestore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKCareKitRemoteSyncWithFirestore.swift; sourceTree = "<group>"; };
 		8EA664B32594387900B6A45A /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		8EBE6F9B24B3C0E60093D07C /* AppDelegate+CardinalKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+CardinalKit.swift"; sourceTree = "<group>"; };
+		B2217BF22B065AB90096284D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B2217BF42B066B870096284D /* RegiteriPatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegiteriPatient.swift; sourceTree = "<group>"; };
 		E235077624F7082700CC1899 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E2680B1A260A72DD00B755EA /* LoginExistingUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginExistingUserViewController.swift; sourceTree = "<group>"; };
 		E29143FB24E74AD100EE97B2 /* LaunchUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchUIView.swift; sourceTree = "<group>"; };
@@ -381,8 +383,8 @@
 				8E0A4389244A4A0400656518 /* LaunchScreen.storyboard */,
 				8E0A4384244A4A0400656518 /* Constants.swift */,
 				8E0A4378244A4A0300656518 /* CardinalKit_Example-Bridging-Header.h */,
-				276399A029021BB4004DE158 /* GoogleService-Info.plist */,
 				8E0A43C9244A4C6500656518 /* Info.plist */,
+				B2217BF22B065AB90096284D /* GoogleService-Info.plist */,
 				E2F1FD7724D62064006C39DF /* CKConfiguration.plist */,
 				27A9F0372AC9F0400084D2B8 /* FeatureFlags.swift */,
 			);
@@ -541,6 +543,7 @@
 				8E7FFFBC25DE38E4002982B4 /* CoffeeChartDataSource.swift */,
 				8E0A4391244A4A0400656518 /* LocalTaskItem.swift */,
 				2BD5328426C30F2E00C4636E /* CloudTaskItem.swift */,
+				B2217BF42B066B870096284D /* RegiteriPatient.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -647,16 +650,15 @@
 					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "CardinalKit" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -688,8 +690,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E0A43AF244A4A0400656518 /* Assets.xcassets in Resources */,
+				B2217BF32B065AB90096284D /* GoogleService-Info.plist in Resources */,
 				8E0A43B0244A4A0400656518 /* LaunchScreen.storyboard in Resources */,
-				276399A129021BB5004DE158 /* GoogleService-Info.plist in Resources */,
 				E2F1FD7824D62064006C39DF /* CKConfiguration.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -845,6 +847,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2217BF52B066B870096284D /* RegiteriPatient.swift in Sources */,
 				E2DF9F0A2500C9CE00A93B93 /* CKLoginStepViewController.swift in Sources */,
 				2FFFA2D229025241009D289D /* ORKESerialization.m in Sources */,
 				8E6E1E14253520440024B8DF /* PasscodeViewController.swift in Sources */,
@@ -965,6 +968,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2GB7F8X57K;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = "\"${SRCROOT}/Pods/Firebase/CoreOnly/Sources\"";
@@ -972,7 +976,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stanfordBDHG.CardinalKit-ExampleTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sahalatsolutions.nsourscares;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -998,13 +1002,14 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2GB7F8X57K;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = "\"${SRCROOT}/Pods/Firebase/CoreOnly/Sources\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stanfordBDHG.CardinalKit-ExampleTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sahalatsolutions.nsourscares;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1121,8 +1126,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "CardinalKit-Example.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2GB7F8X57K;
 				INFOPLIST_FILE = "CardinalKit/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1131,12 +1138,13 @@
 				);
 				MARKETING_VERSION = 2.2.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cardinalkitexample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sahalatsolutions.nsourscares;
 				PRODUCT_NAME = "CardinalKit Example";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "CardinalKit/Supporting Files/CardinalKit_Example-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1148,11 +1156,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = CardinalKit_ExampleRelease.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 637867499T;
+				DEVELOPMENT_TEAM = 2GB7F8X57K;
 				INFOPLIST_FILE = "CardinalKit/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1161,13 +1167,12 @@
 				);
 				MARKETING_VERSION = 2.2.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cardinalkitexample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sahalatsolutions.nsourscares;
 				PRODUCT_NAME = "CardinalKit Example";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "CardinalKit Example";
 				SWIFT_OBJC_BRIDGING_HEADER = "CardinalKit/Supporting Files/CardinalKit_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
